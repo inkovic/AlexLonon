@@ -8,17 +8,28 @@
   h1{
     color:#bdbdbd;
     font-family:'Pontano Sans',Helvetica;
+    text-align:Center;
   }
   ul{
     font-family:'Pontano Sans',Helvetica;
   }
 </style>
+<script src="js/jquery-1.5.min.js">
+  $(document).ready(function() {
+    $('#projects').mouseenter(function() {
+      $('#projectslist').slideDown('fast')
+    });
+    $('#project').mouseleave(function() {
+      $('#projectslist').slideUp('fast')
+    });
+  });
+</script>
 </head>
 <body>
   <h1>Alex Lonon</h1>
-  <ul><h3>Projects</h3>
-    <li><a href="http://codepen.io/Alexlonon75/full/bxLyf/">Jquery Stuff</a></li>
-    <li></li>
+  <ul id="projects"><h3>Projects</h3>
+   <div id='projectslist'><li><a href="http://codepen.io/Alexlonon75/full/bxLyf/">Jquery Stuff</a></li>
+    <li></li></div>
   </ul>
 </body>
 </html>
