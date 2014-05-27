@@ -1,4 +1,81 @@
 <html>
+<head>
+<link href='http://fonts.googleapis.com/css?family=Pontano+Sans' rel='stylesheet' type='text/css'>
+<style>
+body{
+  background:#797979;
+}
+h1{
+  position:relative;
+  left:50px;
+  color:#fff;
+  background:#648bae;
+  text-align:center;
+  width:250px;
+  border-radius:50px;
+}
+h3{
+  background:#648bae;
+  width:100px;
+  height:25px;
+  color:#fff;
+  text-align:center;
+}
+*{
+  font-family:'Pontano Sans';
+}
+#inside1{
+  background:#648bae;
+  width:100px;
+  text-align:center;
+  color:#fff;
+}
+#inside2{
+  background:#648bae;
+  width:100px;
+  text-align:center;
+  color:#fff;
+  position:relative;
+}
+#inside3{
+  background:#648bae;
+  width:100px;
+  text-align:center;
+  color:#fff
+}
+ul{
+  list-style-type:none;
+  float:left;
+}
+a{
+  text-decoration:none;
+  color:#fff;
+}
+</style>
+<script src='js.jquery-1.8.9.min.js'>
+$(document).ready(function() {
+  $('#element1').mouseenter(function() {
+    $('#inside1').slideDown('fast')
+  });
+  $('#element1').mouseleave(function() {
+    $('#inside1').slideUp('fast')
+  });
+    $('#element2').mouseenter(function() {
+    $('#inside2').slideDown('fast')
+  });
+  $('#element2').mouseleave(function() {
+    $('#inside2').slideUp('fast')
+  });
+    $('#element3').mouseenter(function() {
+    $('#inside3').slideDown('fast')
+  });
+  $('#element3').mouseleave(function() {
+    $('#inside3').slideUp('fast')
+  });
+});
+</script>
+</head>
+<body>
 <h1>Alex Lonon</h1>
 <div id='line'>
 <ul id='element1'><h3>Projects</h3>
@@ -21,4 +98,5 @@
   </div>
 </ul>
 </div>
+</body>
 </html>
