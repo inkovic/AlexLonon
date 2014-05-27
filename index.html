@@ -1,36 +1,24 @@
 <html>
-<head>
-<title>Alex Lonon</title>
-<link href='http://fonts.googleapis.com/css?family=Pontano+Sans' rel='stylesheet' type='text/css'>
-<style>
-  body{
-    background:#648bae;
-  }
-  h1{
-    color:#bdbdbd;
-    font-family:'Pontano Sans',Helvetica;
-    text-align:Center;
-  }
-  ul{
-    font-family:'Pontano Sans',Helvetica;
-  }
-</style>
-<script type="text/javascript" src="js/jquery-1.8.9.min.js">
-  $(document).ready(function() {
-    $('#projects').mouseenter(function() {
-      $('#projectslist').slideDown('fast')
-    });
-    $('#project').mouseleave(function() {
-      $('#projectslist').slideUp('fast')
-    });
-  });
-</script>
-</head>
-<body>
-  <h1>Alex Lonon</h1>
-  <ul id="projects"><h3>Projects</h3>
-   <div id='projectslist'><li><a href="http://codepen.io/Alexlonon75/full/bxLyf/">Jquery Stuff</a></li>
-    <li></li></div>
-  </ul>
-</body>
+<h1>Alex Lonon</h1>
+<div id='line'>
+<ul id='element1'><h3>Projects</h3>
+  <div id='inside1'>
+    <li><a href='http://codepen.io/Alexlonon75/full/bxLyf'>Jquery Boxes</a></li>
+    <li><a href='http://codepen.io/Alexlonon75/full/sjbLi'>Multiple Fade</a></li>
+    <li><a href='http://codepen.io/Alexlonon75/full/eIKqn'>CSS Person</a></li>
+  </div>
+</ul>
+  <ul id='element2'><h3>About</h3>
+  <div id='inside2'>
+    <li><a href='http://alexlonon75.github.io/Alex-Lonon'>My Bio </a></li>
+    
+  </div>
+</ul>
+  <ul id='element3'><h3>Contacts</h3>
+  <div id='inside3'>
+    <li><a href='http://www.twitter.com/alex_lonon1'>Twitter</li>
+      <li><a href='http://www.instagram.com/alex_lonon1'>Instagram</a></li>
+  </div>
+</ul>
+</div>
 </html>
