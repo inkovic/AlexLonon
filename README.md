@@ -1,10 +1,4 @@
-Alexlonon75.github.io
+My github.io subdomain
 =====================
- 
-Wow
 
-          such README
-
-  Many .MD
-
-Wow
+Nothing to see here, move on to http://alexlonon75.github.io
